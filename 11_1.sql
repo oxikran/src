@@ -13,7 +13,7 @@ minima a null modifica algún registro para que lo puedas probar. */
 end
 go
 select coddiscos, Nombre, dbo.f_cantidadinfinita(Cantidad) from Discos
-
+go
 /*2. Realiza una función en la que le pasaremos como parámetros de entrada el nombre de un 
 proveedor y una fecha y nos devuelva la cantidad (la suma de cantidades) que tenemos de los
  discos de ese proveedor del año indicado. Tener en cuenta que no se puede introducir una fecha
@@ -27,6 +27,7 @@ begin
 	if @nombre <> (select Nombre from Proveedores)
 	return -3
 end
+go
 	
 	
 	
