@@ -23,14 +23,14 @@ create function f_nosecual
 returns int
 begin 
 	if @fecha= yEAR( GETDATE())
-	return -2
+	set @fecha =-2
+	return @fecha
 	if @nombre <> (select Nombre from Proveedores)
-	return -3
+	set @nombre = -3
+	return @nombre
 end
 go
 	
-	
+
 	
 
-	select * from Proveedores
-	select* from Discos
