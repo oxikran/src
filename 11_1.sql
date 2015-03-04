@@ -31,7 +31,7 @@ begin
 	return @nombre
 end
 go
-	
+	select* from f_nosecual('sony','2001')
 
 	
 
