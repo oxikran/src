@@ -32,6 +32,13 @@ begin
 end
 go
 	select* from f_nosecual('sony','2001')
+	
+	
+	
+	/*3. Hacer una función a la que le pasaremos los mismos parámetros 
+	de la anterior, pero ahora visualizaremos todos los discos que tenemos
+	 de ese proveedor y ese año. Visualizar nombre del disco y cantidad. 
+	 Hacerlo de las dos formas que se puede. */
 
 	
 
