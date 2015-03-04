@@ -17,11 +17,19 @@ select coddiscos, Nombre, dbo.f_cantidadinfinita(Cantidad) from Discos
 /*2. Realiza una función en la que le pasaremos como parámetros de entrada el nombre de un 
 proveedor y una fecha y nos devuelva la cantidad (la suma de cantidades) que tenemos de los
  discos de ese proveedor del año indicado. Tener en cuenta que no se puede introducir una fecha
-  con un año superior al actual, en ese caso devolver -2 y si el proveedor no existe devolver*/
+  con un año superior al actual, en ese caso devolver -2 y si el proveedor no existe devolver -3*/
 create function f_nosecual
-(@nombre varchar (30), @fecha date)
+(@nombre varchar (30), @fecha int)
 returns int
 begin 
-	if @fecha> GETDATE()
-	set @fecha ='-2'
+	if @fecha= yEAR( GETDATE())
+	return -2
+	if @nombre <> (select Nombre from Proveedores)
+	return -3
+end
 	
+	
+	
+
+	select * from Proveedores
+	select* from Discos
