@@ -39,6 +39,16 @@ go
 	de la anterior, pero ahora visualizaremos todos los discos que tenemos
 	 de ese proveedor y ese año. Visualizar nombre del disco y cantidad. 
 	 Hacerlo de las dos formas que se puede. */
+	 
+create funtion f_nueva
+ (@nombre varchar (30), @fecha int)
+ returns table
+ begin 
+	select Discos.anio, Proveedores.nombre 
+	from Discos inner join Proveedores on Discos.CodGenero= proveedores.CodGenero
+	where Discos.anio = @fecha and proveedores.nombre=@nombre
+	return table
+end
 
 	
 
