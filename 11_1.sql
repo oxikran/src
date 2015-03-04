@@ -25,7 +25,8 @@ begin
 	if @fecha= yEAR( GETDATE())
 	set @fecha =-2
 	return @fecha
-	if @nombre <> (select Nombre from Proveedores)
+	if @nombre <> (select Nombre from Proveedores
+					where @Nombre=Nombre)
 	set @nombre = -3
 	return @nombre
 end
