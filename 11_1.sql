@@ -11,3 +11,5 @@ minima a null modifica algún registro para que lo puedas probar. */
 	set @cantidad = 'no hay'
 	return @cantidad
 end
+go
+select coddiscos, Nombre, dbo.f_cantidadinfinita(Cantidad) from Discos
