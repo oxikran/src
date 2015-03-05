@@ -22,7 +22,7 @@ create function f_nosecual
 (@nombre varchar (30), @fecha int)
 returns int
 begin 
-	if @fecha= yEAR( GETDATE())
+	if year(@fecha)= yEAR( GETDATE())
 	set @fecha =-2
 	return @fecha
 	if @nombre <> (select Nombre from Proveedores
@@ -32,7 +32,7 @@ begin
 end
 go
 	select* from f_nosecual('sony','2001')
-	
+go
 	
 	
 	/*3. Hacer una función a la que le pasaremos los mismos parámetros 
@@ -40,7 +40,7 @@ go
 	 de ese proveedor y ese año. Visualizar nombre del disco y cantidad. 
 	 Hacerlo de las dos formas que se puede. */
 	 
-create funtion f_nueva
+create function f_nueva
  (@nombre varchar (30), @fecha int)
  returns table
  begin 
@@ -49,6 +49,3 @@ create funtion f_nueva
 	where Discos.anio = @fecha and proveedores.nombre=@nombre
 	return table
 end
-
-	
-
