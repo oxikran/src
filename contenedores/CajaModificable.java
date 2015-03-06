@@ -8,7 +8,7 @@ public class CajaModificable extends CajaEntero2{
     
     public CajaModificable() {
     Random ram = new Random();
-    x = ram.nextInt(10);
+    x = ram.nextInt(10);	
     
     }
     
