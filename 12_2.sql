@@ -24,13 +24,15 @@ del proveedor, el nombre del disco pedido, la cantidad, la fecha del pedido,
 	return
  end
 	go
-	select dbo.f_trabajo(7) from Discos
+	select* from dbo.f_trabajo() 
+go
 /*8. Hacer una función que pasándole el nombre de un disco y el nombre del 
 cliente, nos devuelva el nombre del cliente, el nombre del disco, la fecha 
 de reserva y las unidades reservadas. Si no existe el cliente que le pasemos 
 mostrará no existe cliente, si no existe el disco mostrará no existe el disco,
  si no existe ninguno visualizará los dos mensajes, esto la haremos en un select.*/
-   
+ create function f_ejercicio8
+  
 /*9. Hacer una función que nos devuelva la cantidad en euros que hemos gastado 
 en pedidos al proveedor entre dos fechas que le pasaremos como parámetro. 
 Tener en cuenta que el orden de las fechas puede estar cambiado, o sea , se 
