@@ -32,7 +32,11 @@ de reserva y las unidades reservadas. Si no existe el cliente que le pasemos
 mostrará no existe cliente, si no existe el disco mostrará no existe el disco,
  si no existe ninguno visualizará los dos mensajes, esto la haremos en un select.*/
  create function f_ejercicio8
-  
+ (@nombredisco nvarchar(30), @nombrecliente nvarchar(50))
+ returns @tabla	table (nombrecliente nvarchar(30),nombredisco nvarchar(30), fechareserva date,
+ unidadesreservadas int)
+ begin
+	insert @tabla
 /*9. Hacer una función que nos devuelva la cantidad en euros que hemos gastado 
 en pedidos al proveedor entre dos fechas que le pasaremos como parámetro. 
 Tener en cuenta que el orden de las fechas puede estar cambiado, o sea , se 
