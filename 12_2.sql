@@ -4,8 +4,27 @@ del proveedor, el nombre del disco pedido, la cantidad, la fecha del pedido,
  la fecha de entrega y un texto que diga "En fecha" o "No en fecha ", si la 
  diferencia entre fecha pedido y fecha entrega es como máximo de una semana 
  entonces será "En fecha" en caso contrario "No en fecha".*/
+ go
+ create function f_trabajo
+ ()
  
-   
+ returns @tablasolucion table(nombreproveedor nvarchar(30), codpedido int, nombredisco nvarchar(30),
+							  cantidad int, fechaentrega date,fechapedido date, resultado nvarchar(30))
+ begin
+	insert @tablasolucion select proveedores.Nombre, Pedidos.CodPedido,Discos.Nombre,discos.Cantidad, Pedidos.FechaEntrega ,
+	Pedidos.FechaPedido,'en Fecha' from Discos inner join Proveedores on discos.CodProveedor = Proveedores.CodProveedor
+	 inner join Pedidos on Proveedores.CodProveedor= pedidos.CodProveedor
+	where ((Pedidos.FechaEntrega)-(Pedidos.FechaEntrega))<=7
+	
+	insert @tablasolucion select proveedores.Nombre, Pedidos.CodPedido,Discos.Nombre,discos.Cantidad, Pedidos.FechaEntrega ,
+	Pedidos.FechaPedido,'no en Fecha' from Discos inner join Proveedores on discos.CodProveedor = Proveedores.CodProveedor
+	 inner join Pedidos on Proveedores.CodProveedor= pedidos.CodProveedor
+	where ((Pedidos.FechaEntrega)-(Pedidos.FechaEntrega))>7
+	
+	return
+ end
+	go
+	select dbo.f_trabajo(7) from Discos
 /*8. Hacer una función que pasándole el nombre de un disco y el nombre del 
 cliente, nos devuelva el nombre del cliente, el nombre del disco, la fecha 
 de reserva y las unidades reservadas. Si no existe el cliente que le pasemos 
