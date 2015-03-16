@@ -43,6 +43,10 @@ Tener en cuenta que el orden de las fechas puede estar cambiado, o sea , se
 permite que esté primero o segundo la fecha menor. Lo que no se permite es que 
 las dos fechas sean superior al día de hoy, en ese caso devolver -1.*/ 
  
+ 
+ 
+ 
+ 
 /*10. Hacer una función escalar que nos devuelva el nombre del proveedor que 
 entre dos fechas pasadas como parámetro hemos gastado más dinero en sus pedidos.
  si las dos fechas son superiores al día de hoy, en ese caso devolver -1.*/
