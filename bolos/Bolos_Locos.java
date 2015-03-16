@@ -22,7 +22,7 @@ public class Bolos_Locos {
 				n=n+1;
 				System.out.print(bolos[i][k]);
 			}
-			System.out.println(" ");
+			System.out.println(" a");
 		}
 		
 		}
