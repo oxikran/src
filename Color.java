@@ -44,6 +44,6 @@ public class Color implements Comparable<Color>{
 	}*/
 	@Override
 	public int compareTo(Color arg0) {
-		return Color-arg0.Color:
+		return Color-arg0.Color;
 	}
 }
