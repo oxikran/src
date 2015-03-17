@@ -5,4 +5,20 @@
 			<xsl:apply-templates select="/instituto/curso/alumno"/>
 		</ciales>
 	</xsl:template>
-</xsl:stylesheet>
+
+
+  <xsl:template match="alumno">
+           <alumno>  
+          	<cial>
+          		<xsl:value-of select="@cial"/>
+           	</cial>
+             <datos> <xsl:value-of select="nombre"/>
+              <xsl:text> -   
+              	</xsl:text>                  
+              <xsl:value-of select="apellidos"/></datos>  
+             <curso>
+             	<xsl:value-of select="../@nombre"/>
+             </curso>   
+            </alumno>     
+          </xsl:template> 
+     </xsl:stylesheet>  
