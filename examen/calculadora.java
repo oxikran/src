@@ -1,4 +1,4 @@
-
+package examen;
 import java.lang.Math;
 
 public class calculadora {
@@ -48,11 +48,7 @@ public class calculadora {
 	
 //Por simplificar supondremos que el número del cual se va a calcular la raíz es num1
 	public int raiz (){
-		if (num1<1){
-			throw new ArithmeticException("no exixste");
-		}else{
 			int result = (int) Math.sqrt(num1);
 			return result;
-		}
 	}	
 }
