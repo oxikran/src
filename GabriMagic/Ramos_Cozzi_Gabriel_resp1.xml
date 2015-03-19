@@ -5,12 +5,12 @@
 <!-- Debes incluir al menos: 
 [*]dos elementos sección, 
 [*]un elemento resumen, 
-[]un ejemplo, 
+[*]un ejemplo, 
 [*]una nota, 
 [*]una lista, 
 [*]un parrafo, 
 [*]un código
-[]una clave. -->
+[*]una clave. -->
 
 <Informe>
 	<Titulo>Cubierta Pabellon</Titulo>
@@ -38,6 +38,10 @@
 					<Codigo>AX-2344</Codigo>
 				</Titulo>
 				<Ejemplo>La alntigua cubierta necesita reemplazarse</Ejemplo>
+				<subseccion>
+					<Titulo>Ejemplo:</Titulo>
+					<Ejemplo>Forma de tortuga</Ejemplo>
+				</subseccion>
 			</seccion>
 </Informe>
 
