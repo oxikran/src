@@ -19,6 +19,5 @@ public class Rectangulo extends Figura {
 	  g.setColor(Color.white);
 	  g.drawRect(posicion.x,posicion.y,lado1,lado2);
 	  g.setColor(cActual);
-	  g.
 	}
 };
