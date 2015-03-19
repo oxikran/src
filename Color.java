@@ -25,7 +25,6 @@ public class Color implements Comparable<Color>{
 	@Override
 	public boolean equals (object obj){
 		if (obj instanceof Color){
-			color otro=
 		}
 	}
 	public Color getColor(){
