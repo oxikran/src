@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Informe SYSTEM "Informe.dtd">
+
+<!-- Debes incluir al menos: 
+dos elementos sección, 
+un elemento resumen, 
+un ejemplo, 
+una nota, 
+una lista, 
+un parrafo, 
+un código
+una clave. -->
+
+	<Cubierta>
+		<seccion>
+			<Titulo>Lo que es viento se llevo</Titulo>
+			<cuerpo>
+				<bloque></bloque>
+			</cuerpo>
+			<subseccion></subseccion>
+		</seccion>
+	
+		<seccion>
+			<Titulo>Lo que es viento se llevo</Titulo>
+			<cuerpo>
+				<bloque></bloque>
+			</cuerpo>
+			<subseccion></subseccion>
+			<subseccion></subseccion>
+		</seccion>
+	
+	</Cubierta>
