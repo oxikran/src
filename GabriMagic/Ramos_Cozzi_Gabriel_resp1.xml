@@ -15,9 +15,7 @@ una clave. -->
 	<Cubierta>
 		<seccion>
 			<Titulo>Lo que es viento se llevo</Titulo>
-			<cuerpo>
-				<bloque></bloque>
-			</cuerpo>
+			<parrafo></parrafo>
 			<subseccion></subseccion>
 		</seccion>
 	
