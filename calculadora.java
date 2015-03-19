@@ -49,7 +49,7 @@ public class calculadora {
 //Por simplificar supondremos que el número del cual se va a calcular la raíz es num1
 	public int raiz (){
 		if (num1<1){
-			throw new ArithmeticException("no exixste");
+			throw new ArithmeticException("ERROR: No existe raíz para este número.");
 		}else{
 			int result = (int) Math.sqrt(num1);
 			return result;
