@@ -3,29 +3,35 @@
 <!DOCTYPE Informe SYSTEM "Informe.dtd">
 
 <!-- Debes incluir al menos: 
-dos elementos sección, 
-un elemento resumen, 
-un ejemplo, 
-una nota, 
-una lista, 
-un parrafo, 
-un código
-una clave. -->
+[*]dos elementos sección, 
+[]un elemento resumen, 
+[]un ejemplo, 
+[]una nota, 
+[]una lista, 
+[]un parrafo, 
+[]un código
+[]una clave. -->
 
-	<Cubierta>
-		<seccion>
-			<Titulo>Lo que es viento se llevo</Titulo>
-			<parrafo></parrafo>
-			<subseccion></subseccion>
-		</seccion>
-	
-		<seccion>
-			<Titulo>Lo que es viento se llevo</Titulo>
-			<cuerpo>
-				<bloque></bloque>
-			</cuerpo>
-			<subseccion></subseccion>
-			<subseccion></subseccion>
-		</seccion>
-	
-	</Cubierta>
+<Informe>
+	<Titulo>Cubierta Pabellon</Titulo>
+			<seccion>
+				<Titulo>Techo</Titulo>
+				
+				<parrafo>Cubierta antilluvia</parrafo>
+				
+				<subseccion>
+					<Titulo>Obras</Titulo>
+					<Nota>10</Nota>
+				</subseccion>
+			</seccion>
+			
+		
+			<seccion>
+				<Titulo>Cubierta Antigua</Titulo>
+				<cuerpo>
+					<bloque></bloque>
+				</cuerpo>
+				<subseccion></subseccion>
+				<subseccion></subseccion>
+			</seccion>
+</Informe>
