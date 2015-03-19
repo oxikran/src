@@ -24,7 +24,15 @@
 					<Nota>10</Nota>
 				</subseccion>
 			</seccion>
-			
+	<Resumen>
+		<Titulo>Proyecto nueva cubierta</Titulo>
+		<Lista>
+			<Elem>Acero</Elem>
+			<Elem>Cemento</Elem>
+			<Elem>Agua</Elem>
+			<Elem>Herramientas</Elem>
+		</Lista>
+	</Resumen>
 		
 			<seccion>
 				<Titulo>Cubierta Antigua</Titulo>
