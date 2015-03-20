@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<examen   recuperacion=”recuperacion” codigo=”LND1262”>
+	<fecha>2010­12­04</fecha>
+	<asignatura>Lenguaje de Marcas</asignatura>
+	<profesor   dni=”DNI12345678X” />
+	<profesor   dni=”DNI43546523F” />
+	<pregunta   autor=”DNI43546523F” obligatoria=”true” puntos=”2”>
+		<texto>
+			Bla 
+			<fecha>1958</fecha>
+			 bla... 
+		</texto>
+	</pregunta>
+	<pregunta   autor=”DNI12345678X” obligatoria=”false” puntos=”4”>
+		<texto>Bla Bla bla... </texto>
+	</pregunta>
+	<pregunta   autor=”DNI43546523F” puntos=”3”>
+		<texto>
+			repaso.­ 
+			<b>Bla</b>
+			 Bla bla... 
+		</texto>
+	</pregunta>
+	<pregunta   autor=”DNI12345678X” puntos=”1”>
+		<texto>
+			final.­ 
+			<b>Bla</b>
+			 Bla bla... 
+		</texto>
+	</pregunta>
+</examen>

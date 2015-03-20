@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"? standalone="no">
+  <!DOCTYPE informeDTD  SYSTEM “MarreroNarciso_resp1.dtd”> 
+
+
+<INFORME>
+	<TITULO>
+	Informe para la cubierta de pabellon de fútbol
+	</TITULO>
+	<SECCION>
+		<TITULO>
+			<CODIGO>
+			SXM-789
+			</CODIGO>
+		</TITULO>
+		<NOTA>
+		el presupuesto asciende a: 2000€
+		</NOTA>
+	</SECCION>
+	<SECCION>
+		<TITULO>
+		disposicion del centro
+		</TITULO>
+		<EJEMPLO>
+			<PARRAFO>
+				En caso de abandono la empresa sera sancionada
+			</PARRAFO>
+		</EJEMPLO>
+	</SECCION>
+	<RESUMEN>
+		<TITULO>
+			<CLAVE>
+			1234
+			</CLAVE>
+		</TITULO>
+	</RESUMEN>
+</INFORME>

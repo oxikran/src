@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje xmlns="http://www.misitio.com"	xsi:schemaLocation="MarreroNarciso_resp2.xml">
+	<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.example.org/Examen" xmlns:tns="http://www.example.org/Examen"
+		elementFormDefault="qualified">
+
+
+		<xs:element name="examen">
+			<xs:complexType>
+				<xs:atribute name="recuperacion" type="xs:string" use="optional"
+					fixed="recuperacions" />
+				<xs:atribute name="codigo" type="xs:anyType">
+					<xs:restriction base="xs:anyType">
+						<xs:pattern value="[A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9]"
+				
+					</xs:restriction>
+				</xs:atribute>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="fecha" type="xs:date" use="required" />
+		<xs:element name="asignatura" type="xs:text" />
+		<xs:element name="profesor" type="xs:string">
+			<xs:atribute name="dni" type="xs:anyType">
+				<xs:restriction base="xs:anyType">
+					<xs:pattern
+						value="[A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][A-Z]"
+			
+				</xs:restriction>
+			</xs:atribute>
+		</xs:element>
+		<xs:element name="pregunta" type="xs:string">
+			<xs:atribute name="obligatoria" use="optional" type="xs:Boolean" />
+			<xs:atribute name="puntos" type="xs:Int">
+				<xs:restriction base="xs:Int">
+					<xs:pattern value="[1-4]" />
+				</xs:restriction>
+			</xs:atribute>
+			<xs:atribute name="texto" type="xs:anyType" />
+		</xs:element>
+
+	</schema>
