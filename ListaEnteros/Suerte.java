@@ -5,7 +5,7 @@ public interface Suerte {
 	boolean usada = false;
 	public static int inicializar(int cantidad){
 		
-		if(Suerte.usada = false){
+		if(usada = false){
 			return (int) (Math.random()*cantidad);
 			usada = true;
 		}
