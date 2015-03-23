@@ -9,6 +9,7 @@ public class ListaEnteros extends ArrayList<Integer> implements Suerte, Iterator
 	
 	
 	
+	
 	@Override
 	public boolean hasNext() {
 		return false;
@@ -21,7 +22,7 @@ public class ListaEnteros extends ArrayList<Integer> implements Suerte, Iterator
 	
 	@Override
 	public void remove(){
-		
+		throw new EmptyException()
 	}
 		
 }
