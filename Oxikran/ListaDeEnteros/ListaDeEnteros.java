@@ -6,44 +6,51 @@ import java.util.Random;
 
 public class ListaDeEnteros extends ArrayList<Integer> implements Suerte,
 		Iterator<Integer> {
-	boolean segunda= false;
+	private boolean incialiazado= false;
 	ListaDeEnteros Elementos;
-	protected int[] valores;
+	protected int elementoActual;
+	
 	@Override
 	public void inicializar(int n){
-		if (segunda) {
+		if (incialiazado) {
 			throw new RuntimeException("solo se pude invocar una vez");
 		}
 		int a;
-		Random ran= new Random();
 		for (a=0;a>n;a++){
-			
+			this.add((int) (Math.random()*600));
 		}
+		incialiazado = true;
 
 	}
 
 	@Override
 	public boolean hasNext() {
-		boolean HayElementos = false;
-		if(Elementos.isEmpty()){
-			HayElementos=true;
+		/*
+		boolean HayElementos = true;
+		if(isEmpty() ||elementoActual == this.size()-1){
+			HayElementos=false;
 		}
 		return HayElementos;
+		*/
+		return !(isEmpty() ||elementoActual == this.size()-1);
 	}
 
 	@Override
 	public Integer next() {
-		int i,estoy=0, sig;
-		for (i=0;i>estoy;i++){
-			sig=Elementos[i];
+		Integer result;
+		if(this.size()==0){
+			result = null;
+		}else{
+			result = this.get(elementoActual);
+			elementoActual++;
+			elementoActual = elementoActual % this.size();
 		}
-		return sig;
+		return result;
 	}
 
 	@Override
 	public void remove() {
-
-		Iterator.super.remove();
+		throw new UnsupportedOperationException("remove");
 	}
 
 }

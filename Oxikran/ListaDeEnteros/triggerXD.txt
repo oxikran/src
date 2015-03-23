@@ -1,0 +1,16 @@
+							trigger o disparador
+no recive parametros no devuelve no se le puede llamar es una unidad el rollback afecta a todo definen mensajes de error  personalizados
+permiten comparaciones del antes y el despues insert update o delete 
+si hay restricciones bvan por encima
+restricciones
+insert....
+trigger
+puede haber varios desencadenadores
+sp_settriggerorder
+create trigger nombre
+	on (tablas)
+{for|after|instead of}{insert|update|delete}
+as
+	[if update(columna)]
+	 [{and|or} update(columna)]
+maximo 32 niveles de trigger
