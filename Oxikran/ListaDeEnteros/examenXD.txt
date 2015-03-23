@@ -3,3 +3,7 @@ iterator<Integer>
 boolean has next()--> siempre true excepto una vez cuando no halla elementos en la lista dice si hay enteros
 Integer next()-->primer entero segundo....... circular no puede dar exepcion solo si es lista vacia
 void remove()--> no implementado hay que ponerle codigo solo lanza excepcion
+
+
+
+2ª version boquear ArrayList
