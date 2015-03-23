@@ -1,4 +1,4 @@
-clase listadeenteros implementa la interface suertecon una unica funcion inicializar solo se puede llamar y la segunda exepcion 
+clase listadeenteros implementa la interface suerte con una unica funcion inicializar solo se puede llamar y la segunda exepcion 
 iterator<Integer>
 boolean has next()--> siempre true excepto una vez cuando no halla elementos en la lista dice si hay enteros
 Integer next()-->primer entero segundo....... circular no puede dar exepcion solo si es lista vacia
