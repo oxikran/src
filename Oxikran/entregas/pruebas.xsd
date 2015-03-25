@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.misitio.com" xmlns="http://www.misitio.com"
+	elementFormDefault="qualified">
+	
+	
+<xs:element name="alumno" type="tipopersona"/>
+<xs:element name="trabajador" type="tipopersona"/>
+
+
+<xs:complexType name="tipopersona">
+<xs:sequence>
+<xs:element name="nombre" type="xs:string"/>
+<xs:element name="apellido" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>   
+</xs:schema>

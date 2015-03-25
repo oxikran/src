@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+		   targetNamespace="http://www.example.org/6_Practica12" 
+		   xmlns="http://www.example.org/6_Practica12" 
+		   elementFormDefault="qualified">
+	<xs:element name="boletin" type="tipoBoletin" />
+		<xs:complexType name="tipoBoletin" mixed="true">
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="apellidos" type="xs:string"/>
+				<xs:element name="nota" type="xs:positiveInteger"/>
+				<xs:element name="materia" type="xs:string"/>
+				<xs:attribute name="evaluacion" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+		   	   
+</xs:schema>

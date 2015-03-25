@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Agenda SYSTEM "Práctica22.dtd" [
+	<!ENTITY Yo "Iván Martín Acosta">
+	<!ENTITY Curso "Primero de Administración de Sistemas Informáticos en Red">
+]>
+<Mensaje>
+	<Autor>&Yo;</Autor>
+	<Destinatario>Unn amigo lejano</Destinatario>
+	<Asunto>Este texto sirve como ejemplo de la práctica 22 del Dossier número 5
+	de lenguaje de marcas.
+	&Yo;,&Curso;</Asunto>
+</Mensaje>

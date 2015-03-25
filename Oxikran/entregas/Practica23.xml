@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Estudiante SYSTEM "practica23.dtd">
+<Estudiante>
+	<Centro>
+		<Denominacion>I.E.S. Domingo Pérez Minik</Denominacion>
+		<Direccion>La Laguna</Direccion>
+		<Telefono>922222222</Telefono>		
+	</Centro>
+	<Alumno>
+		<Nombre>Joyce Rosario Batista</Nombre>
+		<Direccion>Mi Casa</Direccion>
+		<Telefono>666666666</Telefono>
+	</Alumno>	
+	<Alumno>
+		<Nombre>Narciso Marrero Afonso</Nombre>
+		<Direccion>Su casa</Direccion>
+		<Telefono>666222666</Telefono>
+	</Alumno>
+</Estudiante>

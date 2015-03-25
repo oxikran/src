@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clinica xmlns="http://www.misitio.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.misitio.com Practica14.xsd">
+
+<Paciente>
+
+<nombre>Pedro</nombre>
+<apellido>Lopez Aguilar</apellido>
+
+</Paciente>
+
+<Visitante>
+<grupoPersona>
+<nombre>Maria</nombre>
+<apellido>Lopez Aguilar</apellido>
+</grupoPersona>
+</Visitante>
+
+
+<pacientes>
+<grupoPersona>
+<nombre>Carlos</nombre>
+<apellido>Soto Prieto</apellido>
+</grupoPersona>
+
+<visitante>
+<grupoPersona>
+<nombre>Dora</nombre>
+<apellido>Soto Prieto</apellido>
+</grupoPersona>
+</visitante>
+</pacientes>
+
+
+<pacientes>
+<grupoPersona>
+<nombre>Lucas</nombre>
+<apellido>Escupe Alto</apellido>
+</grupoPersona>
+
+<visitante>
+<grupoPersona>
+<nombre>Juana</nombre>
+<apellido>Escupe Bajo</apellido>
+</grupoPersona>
+</visitante>
+</pacientes>
+</Clinica>

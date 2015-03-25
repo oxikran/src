@@ -1,0 +1,4 @@
+<!ELEMENT Mensaje (Autor,Destinatario+,Asunto)>
+<!ELEMENT Autor (#PCDATA)>
+<!ELEMENT Destinatario (#PCDATA)>
+<!ELEMENT Asunto (#PCDATA)>

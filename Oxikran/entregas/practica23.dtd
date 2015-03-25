@@ -1,0 +1,8 @@
+<!ENTITY % Contacto "Direccion, Telefono">
+<!ELEMENT Estudiante (Centro | Alumno)+>
+<!ELEMENT Alumno (Nombre, %Contacto;)>
+<!ELEMENT Centro (Denominacion, %Contacto;)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Denominacion (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>

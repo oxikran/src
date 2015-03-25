@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="instituto">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="curso" minOccurs="1" maxOccurs="10"/>
+			</xs:sequence>
+			<xs:attribute name="codigo" type="xs:int" use="required"/>
+			<xs:attribute name="nombre" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="curso">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="alumno" minOccurs="1" maxOccurs="30"/>
+			</xs:sequence>
+			<xs:attribute name="codigo" type="xs:int" use="required"/>
+			<xs:attribute name="nombre" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="alumno">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="apellidos" type="xs:string"/>
+				<xs:element name="repetidor" type="xs:boolean"/>
+				<xs:element ref="notas"/>
+			</xs:sequence>
+			<xs:attribute name="cial" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="notas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:group ref="asignota" maxOccurs="10"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:group name="asignota">
+		<xs:sequence>
+			<xs:element name="asignatura" type="xs:string"/>
+			<xs:element name="nota">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="calif">
+							<xs:attribute name="recuperacion" type="xs:boolean" default="false"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="calif">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

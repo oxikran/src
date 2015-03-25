@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Contador</title>
+		<script>
+			<!--
+			var contador = 0;
+			function pulsacion1Boton() {
+				contador++;
+				document.getElementById("numero").innerHTML = contador;		
+			}
+			function pulsacion2Boton() {
+				contador--;
+				document.getElementById("numero").innerHTML = contador;		
+			}
+			function resetear() {
+				contador = 0;
+				document.getElementById("numero").innerHTML = contador;
+			}
+			function asignacion() {
+				contador = document.getElementById("asig").value;
+				document.getElementById("numero").innerHTML = contador;
+			}
+			//-->
+		</script>
+	</head>
+	<Body>
+		<form name="Form1">
+			<input type="button" name="mas" value="+" onclick="pulsacion1Boton();">
+			<input type="button" name="menos" value="-" onclick="pulsacion2Boton();">
+			<input type="button" name"reset" value="resetear" onclick="resetear();">
+			<h1 id="numero" align="center">0</h1>
+
+		<br>
+		<input id="asig" type="number" value="0"">
+		<input type="button" value="asignar" onclick="asignacion();">
+		</form>
+	</body>
+</html>

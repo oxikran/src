@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Agenda SYSTEM "practica18.dtd">
+<Agenda>
+	<Persona DNI="DNI_44455577A" EstadoCivil="Viudo">
+		<Nombre>Eva</Nombre>
+		<Apellido>Lopez</Apellido>
+		<Email>evalopez@minik.org</Email>
+		<Oficina Nombre="Oficina_2.1_B18"></Oficina>
+		<Telefono Tipo="Trabajo">5555555</Telefono>
+		<Movil>5557777</Movil>
+	</Persona>
+	<Persona DNI="DNI_45708180G">
+		<Nombre>Joyce</Nombre>
+		<Apellido>Rosario</Apellido>
+		<Apellido>Batista</Apellido>
+		<Email>joyce.yo@gmail.com</Email>
+		<Oficina Nombre="El_País_de_OOO"></Oficina>
+		<Telefono>922222222</Telefono>
+		<Movil>666666666</Movil>
+	</Persona>
+</Agenda>

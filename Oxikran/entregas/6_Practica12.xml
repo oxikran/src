@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boletin xmlns="http://www.example.org/6_Practica12"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://www.example.org/6_Practica12 6_Practica12.xsd">
+
+	El alumno <nombre>Juan</nombre> <apellidos>González Delgado</apellidos>, ha obtenido una calificación de
+	<nota>8</nota> en la asignatura <materia>Lenguaje de Marcas</materia>
+
+</boletin>

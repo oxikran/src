@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno xmlns="http://www.misitio.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.misitio.com pruebas.xsd">
+<nombre>Juan</nombre>
+<apellido>González</apellido>
+</alumno>
+<trabajador xmlns="http://www.misitio.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.misitio.com pruebas.xsd">
+<nombre>Ana</nombre>
+<apellido>Delgado</apellido>
+</trabajador>

@@ -1,0 +1,13 @@
+<!ELEMENT Agenda (Persona*)>
+<!ELEMENT Persona (Nombre, Apellido+, Email*, Oficina?, (Telefono | Movil)+)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Oficina EMPTY>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Movil (#PCDATA)>
+<!ATTLIST Persona DNI ID #REQUIRED>
+<!ATTLIST Persona EstadoCivil ( Soltero | Casado | Viudo | ParejaDeHecho ) #IMPLIED>
+<!ATTLIST Telefono Tipo (Casa|Trabajo) "Casa">
+<!ATTLIST Oficina Nombre ID #REQUIRED>
+
