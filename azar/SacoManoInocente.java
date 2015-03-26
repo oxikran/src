@@ -15,11 +15,8 @@ public class SacoManoInocente {
 		last++;
 		
 		for(int i=0;i<last-1;i++){
-			
-			if(nombre.equals(saco[i])){
+			if(nombre.equals(saco[i]))
 				last--;
-			}
-		
 		}
 	}
 
