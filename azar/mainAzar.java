@@ -5,7 +5,12 @@ public class mainAzar {
 	public static void main(String[] args) {
 		
 		SacoManoInocente bolsa = new SacoManoInocente();
-		String[] lsita = {"Juan","Jose","Aznar","Rajoy","Alvaro","Azir"};
+		String[] lista = {"Juan","Jose","Aznar","Rajoy","Alvaro","Azir"};
+		
+		
+
+		bolsa.meter(lista);
+		
 		
 		bolsa.meter("Jose");
 		bolsa.meter("Pedro");
@@ -17,17 +22,10 @@ public class mainAzar {
 		bolsa.meter("Gabriel");
 		bolsa.meter("Pedro");
 		bolsa.meter("Fernando");
-		bolsa.meter("Pedro");
-		
+		bolsa.meter("Pedro");		
 
 		bolsa.mostrar(bolsa);
 		
-		/*
-		bolsa.sacar();
-		bolsa.sacar();
-		bolsa.sacar();
-		bolsa.sacar();
-		*/
 
 		bolsa.sacar(1);
 		

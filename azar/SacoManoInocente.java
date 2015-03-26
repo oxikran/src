@@ -2,25 +2,15 @@ package azar;
 
 public class SacoManoInocente {
 	
-	private String[] saco = new String[10];
+	private String[] saco = new String[1000000];
 	private int last=0;
 	
-	SacoManoInocente(){}
+	public SacoManoInocente(){
+		last=0;
+		saco = new String[1000000];
+	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	void meter(String nombre){
+	public void meter(String nombre){
 		saco[last]=nombre;
 		last++;
 		
@@ -34,10 +24,13 @@ public class SacoManoInocente {
 	}
 
 
-	void meter(String[] nombre){
-		for(int i=1;i<=nombre.length;i++){
-			meter(nombre[i]);
-		}
+	public void meter(String[] nombre){
+
+		int longitud = nombre.length;
+		
+			for(int i=0;i<longitud;i++){
+				meter(nombre[i]);	
+			}
 	}
 	
 
@@ -70,8 +63,8 @@ public class SacoManoInocente {
 	}
 		
 
-	String[] sacar(int cuantos){
-		String[] exit = new String[10];;
+	public String[] sacar(int cuantos){
+		String[] exit = new String[1000000];;
 		
 		if(cuantos >= last){
 			last=0;
