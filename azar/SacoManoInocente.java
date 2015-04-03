@@ -31,7 +31,7 @@ public class SacoManoInocente {
 	}
 	
 
-	void mostrar(SacoManoInocente bolsa){
+	public void mostrar(SacoManoInocente bolsa){
 		System.out.println();
 		System.out.println("--SACO   CANTIDAD:"+last+"--");
 		for(int i=0;i<last;i++)
@@ -50,7 +50,6 @@ public class SacoManoInocente {
 			last--;
 		}
 		catch (ArrayIndexOutOfBoundsException e){
-			System.out.println();
 			System.out.println("ERROR, no quedan nombres que sacar en el saco");
 			System.out.println(e);
 			return null;
@@ -77,7 +76,7 @@ public class SacoManoInocente {
 	}
 	
 	
-	void vaciar(){
+	public void vaciar(){
 		last=0;
 	}
 	

@@ -7,10 +7,7 @@ public class mainAzar {
 		SacoManoInocente bolsa = new SacoManoInocente();
 		String[] lista = {"Juan","Jose","Aznar","Rajoy","Alvaro","Azir"};
 		
-		
-
 		bolsa.meter(lista);
-		
 		
 		bolsa.meter("Jose");
 		bolsa.meter("Pedro");
@@ -28,6 +25,8 @@ public class mainAzar {
 		
 
 		bolsa.sacar(1);
+		bolsa.sacar(5);
+		bolsa.sacar(0);
 		
 		bolsa.mostrar(bolsa);
 
@@ -37,10 +36,6 @@ public class mainAzar {
 		bolsa.sacar(2);
 		bolsa.mostrar(bolsa);
 		bolsa.vaciar();
-		
-		
-		
-		
 	}
 
 }
