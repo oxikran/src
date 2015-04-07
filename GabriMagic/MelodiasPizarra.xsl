@@ -12,7 +12,11 @@
 				<xsl:for-each select="rss/channel/item">
 					
 					<item>
-						<titulo><xsl:value-of select="substring(title,18)"/></titulo>
+						<titulo>
+						<xsl:copy-of select="/rss/cahnnel/item"/>
+						
+						<xsl:value-of select="substring(title,18)"/>
+						</titulo>
 						<!-- 
 						<xsl:value-of select="link"/>
 						<xsl:value-of select="pubDate"/>
@@ -23,19 +27,6 @@
 				</programas>
 			</body>
 		</html>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	</xsl:template>
 </xsl:stylesheet>
 
