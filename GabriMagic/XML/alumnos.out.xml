@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/css" href="estilos.css" ?>
+<html>
+	<body>
+		<table>
+			<tr>
+				<td>Nombre</td>
+				<td>Apellidos</td>
+				<td>Asignatura</td>
+			</tr>
+			<tr>
+				<td>Javier </td>
+				<td>Marquez Fernandez</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>Alvarez Perez</td>
+			</tr>
+		</table>
+	</body>
+</html>

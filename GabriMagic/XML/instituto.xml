@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+
+<instituto codigo="38010700" nombre="IES Domingo Pérez Minik" xsi:noNamespaceSchemaLocation="instituto_noNamespaceSchemaLocation.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<curso codigo="1" nombre="1º ASIR">
+		&anexo;
+		<alumno cial="A18X111">
+			<nombre>Javier </nombre>
+			<apellidos>Márquez Fernández</apellidos>
+			<repetidor>false</repetidor>
+			<notas>
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota recuperacion="true">8</nota>
+				<asignatura>Redes</asignatura>
+				<nota>7</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>3</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>6</nota>
+			</notas>
+		</alumno>
+		<alumno cial="A27M242">
+			<nombre>María</nombre>
+			<apellidos>Álvarez Pérez</apellidos>
+			<repetidor>true</repetidor>
+			<notas>
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota>5</nota>
+				<asignatura>Redes</asignatura>
+				<nota>5</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>7</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>6</nota>
+			</notas>
+		</alumno>
+	</curso>
+</instituto>

@@ -1,92 +1,107 @@
 <html>
-	<body>
-		<h1>Lista de Programas</h1>
-		<programas>
-			<item>
-				<titulo> - Swingers y Santos - 04/04/15</titulo>
-			</item>
-			<item>
-				<titulo>
-					- M&uacute;sica
-					de persecuciones - 28/03/15
-				</titulo>
-			</item>
-			<item>
-				<titulo> - Hitler, Nosferatu, Franco y su OK Jazz - 21/03/15
-				</titulo>
-			</item>
-			<item>
-				<titulo>
-					- Modernismos Espa&ntilde;oles
-					- 14/03/15
-				</titulo>
-			</item>
-			<item>
-				<titulo>
-					- Maravillas del P&aacute;jaro
-					Azul - 07/03/15
-				</titulo>
-			</item>
-			<item>
-				<titulo> - Un programa de variedades - 28/02/15</titulo>
-			</item>
-			<item>
-				<titulo>
-					- Se puede decir m&aacute;s
-					alto... - 21/02/15
-				</titulo>
-			</item>
-			<item>
-				<titulo>
-					- Melod&iacute;as
-					curalotodo - 14/02/15
-				</titulo>
-			</item>
-			<item>
-				<titulo>
-					- De lo m&aacute;s
-					exclusivo - 24/01/15
-				</titulo>
-			</item>
-			<item>
-				<titulo> - Banjos y vaqueritas - 17/01/15</titulo>
-			</item>
-			<item>
-				<titulo> - Chapados a la antigua - 10/01/15</titulo>
-			</item>
-			<item>
-				<titulo>
-					- Una vez al a&ntilde;o
-					ser punk no hace da&ntilde;o
-					Vol 3 - 03/01/15
-				</titulo>
-			</item>
-			<item>
-				<titulo> - Nochevieja Alternativa - 27/12/14</titulo>
-			</item>
-			<item>
-				<titulo>
-					- Para los m&aacute;speque&ntilde;osde la casa - 20/12/14
-				</titulo>
-			</item>
-			<item>
-				<titulo> - Para gustos... - 13/12/14</titulo>
-			</item>
-			<item>
-				<titulo> - Podcast de retorno - 06/12/14</titulo>
-			</item>
-			<item>
-				<titulo> - 1937 - 29/11/14</titulo>
-			</item>
-			<item>
-				<titulo> - Swing en el ruedo - 22/11/14</titulo>
-			</item>
-			<item>
-				<titulo> - Festival de finos incunables - 15/11/14</titulo>
-			</item>
-			<item>
-				<titulo> - Mujeres y bichos - 01/11/14</titulo>
-			</item>
-		</programas>
-	</body>
+<body>
+<h1>Lista de Programas</h1>
+<programas>
+<item>
+<titulo>
+<title xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">Melod&iacute;as pizarras - Swingers y Santos - 04/04/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - M&uacute;sica de persecuciones - 28/03/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Hitler, Nosferatu, Franco y su OK Jazz - 21/03/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Modernismos Espa&ntilde;oles - 14/03/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Maravillas del P&aacute;jaro Azul - 07/03/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Un programa de variedades - 28/02/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Se puede decir m&aacute;s alto... - 21/02/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras -  Melod&iacute;as curalotodo - 14/02/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - De lo m&aacute;s exclusivo - 24/01/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Banjos y vaqueritas - 17/01/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Chapados a la antigua - 10/01/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Una vez al a&ntilde;o ser punk no hace da&ntilde;o Vol 3 - 03/01/15</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Nochevieja Alternativa - 27/12/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Para los m&aacute;s peque&ntilde;os de la casa - 20/12/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Para gustos... - 13/12/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Podcast de retorno - 06/12/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - 1937 - 29/11/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Swing en el ruedo - 22/11/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as Pizarras - Festival de finos incunables - 15/11/14</title>
+</titulo>
+</item>
+<item>
+<titulo>
+<title>Melod&iacute;as pizarras - Mujeres y bichos - 01/11/14</title>
+</titulo>
+</item>
+</programas>
+</body>
 </html>

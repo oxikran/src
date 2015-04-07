@@ -1,0 +1,22 @@
+instituto{
+	padding: 5px;
+}
+
+alumno{
+	display: block;
+	margin: 0 0 5px 0;
+}
+
+nombre{
+	color: red;
+	font-size: 20px;
+	background-color: pink;
+}
+
+apellidos{
+	color: #0f0;
+	font-size: 16px;
+}
+
+nota{ display:none }
+repetidor{ display:none }
