@@ -9,7 +9,7 @@
 	<curso codigo="1" nombre="1º ASIR">
 
 		<alumno cial="A18X111">
-			<nombre>Javier </nombre>
+			<nombre>Javier</nombre>
 			<apellidos>Marquez Fernandez</apellidos>
 			<repetidor>false</repetidor>
 			<notas>
@@ -38,6 +38,11 @@
 				<asignatura>Sistemas Operativos</asignatura>
 				<nota>6</nota>
 			</notas>
+		</alumno>
+		
+		<alumno>
+			<nombre>Jorge Javier</nombre>
+			<apellidos>Martinez Rosa</apellidos>
 		</alumno>
 
 	</curso>

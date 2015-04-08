@@ -8,6 +8,13 @@
 	<xsl:output method="html" />
 
 	<xsl:template match="/">
+		
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<link href="estilos.css" rel="stylesheet" type="text/css" />
+			 <title>Intituto</title>
+		</head>
+		
 		<html>
 			<body>
 				<table>
