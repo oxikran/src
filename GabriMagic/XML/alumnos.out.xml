@@ -1,26 +1,22 @@
-<html>
-
-<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<link href="estilos.css" rel="stylesheet" type="text/css">
-		<title>Intituto</title>
-</head>
-
-	<body>
-		<table>
-			<tr>
-				<td>Nombre</td>
-				<td>Apellidos</td>
-				<td>Asignatura</td>
-			</tr>
-			<tr>
-				<td>Javier </td>
-				<td>Marquez Fernandez</td>
-			</tr>
-			<tr>
-				<td>Maria</td>
-				<td>Alvarez Perez</td>
-			</tr>
-		</table>
-	</body>
+<head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<title>Intituto</title>
+</head><html>
+<body>
+<table>
+<tr>
+<td>Nombre</td><td>Apellidos</td><td>Asignatura</td>
+</tr>
+<tr>
+<td>Javier</td><td>Marquez Fernandez</td>
+</tr>
+<tr>
+<td>Maria</td><td>Alvarez Perez</td>
+</tr>
+<tr>
+<td>Jorge Javier</td><td>Martinez Rosa</td>
+</tr>
+</table>
+</body>
 </html>
