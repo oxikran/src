@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--New document created with EditiX at Thu Mar 08 09:22:30 WET 2012 -->
+
+
+<?xml-stylesheet type="text/xsl" href="ejercicio11.xsl"?>
+
+
+<mi:instituto codigo="38010700" nombre="IES Domingo Pérez Minik"
+	xsi:schemaLocation="http://misitio.com instituto.xsd" xmlns:mi="http://misitio.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<curso codigo="1" nombre="1º ASIR">
+		<alumno cial="A18X111">
+			<nombre>Javier</nombre>
+			<apellidos>Márquez fernández</apellidos>
+			<repetidor>false</repetidor>
+			<notas><!-- New document created with EditiX at Thu Mar 08 09:22:30 WET 
+					2012 -->
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota recuperacion="true">8</nota>
+				<asignatura>Redes</asignatura>
+				<nota>7</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>3</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>6</nota>
+			</notas>
+		</alumno>
+		<alumno cial="A12B241">
+			<nombre>Angel</nombre>
+			<apellidos>Perez Fernández</apellidos>
+			<repetidor>true</repetidor>
+			<notas><!-- New document created with EditiX at Thu Mar 08 09:22:30 WET 
+					2012 -->
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota recuperacion="false">3</nota>
+				<asignatura>Redes</asignatura>
+				<nota>3</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>7</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>8</nota>
+			</notas>
+		</alumno>
+		<alumno cial="D12X134">
+			<nombre>Alba</nombre>
+			<apellidos>Márquez Pérez</apellidos>
+			<repetidor>false</repetidor>
+			<notas><!-- New document created with EditiX at Thu Mar 08 09:22:30 WET 
+					2012 -->
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota>5</nota>
+				<asignatura>Redes</asignatura>
+				<nota>9</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>10</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>1</nota>
+			</notas>
+		</alumno>
+		<alumno cial="Z23R762">
+			<nombre>Luisa Fernanda</nombre>
+			<apellidos>pérez Fernández</apellidos>
+			<repetidor>false</repetidor>
+			<notas><!-- New document created with EditiX at Thu Mar 08 09:22:30 WET 
+					2012 -->
+				<asignatura>Redes</asignatura>
+				<nota>7</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>5</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>6</nota>
+			</notas>
+		</alumno>
+		<alumno cial="A27M242">
+			<nombre>María</nombre>
+			<apellidos>Álvarez Pérez</apellidos>
+			<repetidor>true</repetidor>
+			<notas>
+				<asignatura>Lenguajes de programacion</asignatura>
+				<nota>5</nota>
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota>5</nota>
+				<asignatura>Redes</asignatura>
+				<nota>5</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>7</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>6</nota>
+			</notas>
+		</alumno>
+	</curso>
+	<curso codigo="1" nombre="1º DAM">
+		<alumno cial="A38X100">
+			<nombre>Ana</nombre>
+			<apellidos>Barns Fernández</apellidos>
+			<repetidor>false</repetidor>
+			<notas><!-- New document created with EditiX at Thu Mar 08 09:22:30 WET 
+					2012 -->
+				<asignatura>Lenguajes de marcas</asignatura>
+				<nota recuperacion="true">8</nota>
+				<asignatura>Redes</asignatura>
+				<nota>7</nota>
+				<asignatura>Fundamentos de hardware</asignatura>
+				<nota>3</nota>
+				<asignatura>Sistemas Operativos</asignatura>
+				<nota>6</nota>
+			</notas>
+		</alumno>
+	
+	</curso>	
+</mi:instituto>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://misitio.com" xmlns="http://misitio.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns="http://misitio.com" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+	<xs:element name="instituto">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="curso" maxOccurs="10">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="alumno" maxOccurs="30">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nombre" type="xs:string" />
+										<xs:element name="apellidos" type="xs:string" />
+										<xs:element name="repetidor" type="xs:boolean" />
+										<xs:element name="notas">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:group maxOccurs="10" ref="asignota" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="cial" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="codigo" type="xs:int" use="required" />
+						<xs:attribute name="nombre" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="codigo" type="xs:int" use="required" />
+			<xs:attribute name="nombre" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:group name="asignota">
+		<xs:sequence>
+			<xs:element name="asignatura" type="xs:string" />
+			<xs:element name="nota">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="calif">
+							<xs:attribute default="false" name="recuperacion"
+								type="xs:boolean" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="calif">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1" />
+			<xs:maxInclusive value="10" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
