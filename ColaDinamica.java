@@ -47,10 +47,10 @@ public class ColaDinamica {
 		int i;
 		StringBuffer aux = new StringBuffer("[");
 		if(!vacia()){
-			for (i = cabeza; i != cola; i = sig(i)) {
-				aux.append("\'" + datos[i] + "\', ");
+			for (i=cabeza; i!=cola; i=sig(i)) {
+				aux.append("\'"+datos[i]+"\', ");
 			}
-			aux.append("\'" + datos[i] + "\']");
+			aux.append("\'"+datos[i]+"\']");
 		}
 		else
 			aux.append("]");
