@@ -1,4 +1,4 @@
-package repositorio_molon;
+package Oxikran;
 /* setX (igual) pero tendra un constructor que recibira un valor inicial pero si caja esta cerrada no se variara
  * pero si se podra consultar abrir y cerrar delete 
  * otro constructor que no de valor a caja enetera la caja entera se puede modificar con set un valor si no se le ha puesto 

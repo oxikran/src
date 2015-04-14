@@ -1,4 +1,4 @@
-package repositorio_molon;
+package Oxikran;
 
 public class Orden {
 	public static comparable ElMenor(Comparable a,Comparable b){
