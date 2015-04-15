@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;DatosContablesSubtotalizado&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;// Creamos las variables.&#34;,&#34;int numEpi, numPer, i, k;&#34;,&#34;float total;&#34;,&#34;String[] nomEpi, nomPer;&#34;,&#34;float[][] gastos;&#34;,&#34;float[] gastosPer;&#34;,&#34;Scanner kb = new Scanner(System.in);&#34;,&#34;total = 0.0f;&#34;,&#34;final int ANCHO=15;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<for text="&#34;(i = 0; i &#60; numEpi; i++)&#34;" comment="" color="ffffff">
+			<qFor>
+				<instruction text="&#34;leer fila&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFor>
+		</for>
+		<for text="&#34;(i = 0; i &#60; numPer; i++)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qFor>
+				<instruction text="&#34;leer columna&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qFor>
+		</for>
+		<for text="&#34;(k=0;k&#60;numPer;k++)&#34;" comment="&#34;&#34;" color="ffffff">
+			<qFor>
+				<for text="&#34;(i=0;i&#60;numEpi;i++)&#34;" comment="&#34;&#34;" color="ffffff">
+					<qFor>
+						<instruction text="&#34;Subtotal&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFor>
+				</for>
+			</qFor>
+		</for>
+	</children>
+</root>

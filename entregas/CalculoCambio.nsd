@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;CalculoCambio&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Scanner kb = new Scanner(System.in)&#34;,&#34;int euros, centimos&#34;,&#34;System.out.println(&#34;&#34;Cantidad que desea cambiar de euros:&#34;&#34;)&#34;,&#34;euros = kb.nextInt()&#34;,&#34;System.out.println(&#34;&#34;Cantidad que desea cambiar de centimos:&#34;&#34;)&#34;,&#34;centimos = kb.nextInt()&#34;" comment="&#34;Scanner para parametros de entrada y declaración de variables&#34;,&#34;Mostrar un mensaje por pantalla que indique que introduzca las&#34;,&#34;cantidades a cambiar, por separado, euros y céntimos (en ese orden).&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;(centimos &#62;100)&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;euros= euros +(centimos/100)&#34;,&#34;centimos= centimos- 100*(centimos/100)&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;// Las cantidades se mantienen&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<while text="&#34;(euros &#62; 0)&#34;" comment="" color="ffffff">
+			<qWhile>
+				<alternative text="&#34;(euros&#62;=50)&#34;" comment="" color="ffffff">
+					<qTrue>
+					</qTrue>
+					<qFalse>
+						<alternative text="&#34;(euros&#62;=20)&#34;" comment="" color="ffffff">
+							<qTrue>
+							</qTrue>
+							<qFalse>
+								<alternative text="&#34;(euros&#62;=10)&#34;" comment="" color="ffffff">
+									<qTrue>
+									</qTrue>
+									<qFalse>
+										<alternative text="&#34;(euros&#62;=5)&#34;" comment="" color="ffffff">
+											<qTrue>
+											</qTrue>
+											<qFalse>
+												<alternative text="&#34;(euros&#62;=2)&#34;" comment="" color="ffffff">
+													<qTrue>
+													</qTrue>
+													<qFalse>
+													</qFalse>
+												</alternative>
+											</qFalse>
+										</alternative>
+									</qFalse>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+	</children>
+</root>
