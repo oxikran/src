@@ -57,4 +57,40 @@ public class ColaDinamica {
 		
 		return aux.toString();
 	}
+	
+	
+	public boolean add(T elemento){
+	/*	
+		Nodo i;
+		i=ini;
+		while(i.sig!=null)
+				i=i.sig;
+		
+		nuevo=new Nodo();
+		nuevo.dato=elemento;
+		i.sig=nuevo;
+		contador++;
+		*/
+		add(contador,elemento);
+		return true;
+	}
+	
+	public add(int posicion, T elemento){
+		Nodo i,pos;
+		
+		if(posicion < 0 | posicion > contador) {
+			throw new RunTimeException("No se pueden"");
+		}
+		
+		i=ini;
+		for(pos=0;pos<posicion;pos++)
+			i=i.sig;
+		
+		
+		nuevo=new Nodo();
+		elementos[posicion] = elemento;
+		nuevo.sig=i.sig;
+		i.sig=nuevo;
+		contador++;
+	}
 }
