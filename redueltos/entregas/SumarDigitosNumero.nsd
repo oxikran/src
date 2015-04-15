@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;SumarDigitosNumero&#34;" comment="&#34;El programa pedirá un número al usuario y sumará todos sus dígitos,&#34;,&#34;dando el resultado en el mensaje final.&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Definimos las variables a usar:&#34;,&#34;añadir la entrada de teclado de tipo Scanner&#34;,&#34;tipo long num, resto, suma&#34;,&#34;asignamos a suma un valor 0&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Pedir al usuario un numero entero positivo&#34;,&#34;leer teclado&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;num es mayor o igual que 0&#34;" comment="&#34;Se pide que el número sea positivo, por lo que imponemos un condicional&#34;" color="ffffff">
+			<qTrue>
+				<while text="&#34;mientras numero sea distinto de 0&#34;" comment="" color="ffffff">
+					<qWhile>
+						<instruction text="&#34;a resto le asignamos el resto de la división num/10&#34;,&#34;a suma le asignamos suma+resto&#34;,&#34;a num le asignamos num entre 10&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qWhile>
+				</while>
+				<instruction text="&#34;Mostramos en pantalla el valor suma&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;mostrar en pantalla &#34;&#34;numero erróneo&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;cerrar entrada de teclado&#34;" comment="" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

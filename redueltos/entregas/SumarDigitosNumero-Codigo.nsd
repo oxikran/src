@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;SumarDigitosNumero&#34;" comment="&#34;El programa pedirá un número al usuario y sumará todos sus dígitos,&#34;,&#34;dando el resultado en el mensaje final.&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;long num, resto, suma&#34;,&#34;Scanner kb &#60;- new Scanner(System.in)&#34;,&#34;suma &#60;- 0&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;System.out.print(&#34;&#34;Por favor, introduzca un número entero y positivo: &#34;&#34;)&#34;,&#34;num &#60;- kb.nextLong()&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;num &#62;= 0&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<while text="&#34;num !&#60;-0&#34;" comment="&#34;&#34;" color="ffffff">
+					<qWhile>
+						<instruction text="&#34;resto &#60;- num%10&#34;,&#34;suma &#60;- suma+resto&#34;,&#34;num &#60;- num/10&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qWhile>
+				</while>
+				<instruction text="&#34;System.out.print(&#34;&#34;La suma de todos los digitos de su número es: &#34;&#34;+suma)&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;System.out.print(&#34;&#34;El número introducido no es positivo.&#34;&#34;)&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;kb.close()&#34;" comment="" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

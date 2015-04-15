@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;???&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;inicializar variable acumuladora&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;100 veces&#34;" comment="&#34;&#34;" color="ffffff">
+			<qWhile>
+				<instruction text="&#34;leer numero y guardarlo en nueva casilla de una tabla&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;acumular numero (para el posterior calculo de la media)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qWhile>
+		</while>
+		<instruction text="&#34;media &#60;- acumulador / 100&#34;,&#34;total &#60;- 0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;100 veces para tratar cada una &#34;,&#34;de las casillas de la tabla que &#34;,&#34;contiene los numeros leidos&#34;" comment="&#34;&#34;" color="ffffff">
+			<qWhile>
+				<alternative text="&#34;numero de la casilla &#34;,&#34;actual MENOR que media&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;acumular cada numero en la variable total&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<instruction text="&#34;Mostrar total&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

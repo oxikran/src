@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;LectorFichasAjedrez&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Crear la tabla bidimensional de caracteres &#34;&#34;caracteres&#34;&#34;&#34;,&#34;Inicializarla con un tamaño de [8][8]&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Recorrer la tabla caracteres y establecer todas sus posiciones a &#34;&#34; &#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Crear variable temp de tipo string&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Crear variable ficha de tipo string&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Crear variables fila y columna de tipo entero inicializadas a 0&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Crear variable caracterFicha de tipo char inicializada a &#34;&#34; &#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Leer ficha&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;Mientras que ficha no sea igual a &#34;&#34;fin&#34;&#34;&#34;" comment="" color="ffffff">
+			<qWhile>
+				<instruction text="&#34;Leer los dos primeros caracteres del string&#34;,&#34;Guardarlos en temp&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<alternative text="&#34;Si el segundo caracter de temp es b&#34;" comment="" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;Guardar en caracterFicha el valor&#34;,&#34;del primer caracter en miniscula&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;Guardar en caracterFicha el valor&#34;,&#34;del primer caracter en mayuscula&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+				<instruction text="&#34;Leer el tercer caracter del string&#34;,&#34;Guardarlo en fila&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Leer los caracteres restantes desde el tercero (sin incluirse)&#34;,&#34;Guardarlos en temp&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<case text="&#34;temp&#34;,&#34;td&#34;,&#34;cd&#34;,&#34;ad&#34;,&#34;d&#34;,&#34;r&#34;,&#34;ar&#34;,&#34;cr&#34;,&#34;tr&#34;" comment="" color="ffffff">
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 1&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 2&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 3&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 4&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 5&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 6&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 7&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;Asignar a la&#34;,&#34;variable&#34;,&#34;columna el&#34;,&#34;valor 8&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+				</case>
+				<instruction text="&#34;Guardar en la posicion [fila-1][columna-1] de la tabla caracteres el valor de caracterFicha&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Leer la siguiente ficha&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qWhile>
+		</while>
+		<for text="&#34;i = caracteres.length-1; Para cada fila de la tabla caracteres; i--&#34;" comment="" color="ffffff">
+			<qFor>
+				<for text="&#34;j = 0; Para cada columna de la tabla caracteres; j++&#34;" comment="" color="ffffff">
+					<qFor>
+						<instruction text="&#34;Imprimir el caracter de la tabla caracteres en la posicion [i][j]&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFor>
+				</for>
+				<instruction text="&#34;Imprimir retorno de carro&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFor>
+		</for>
+	</children>
+</root>
