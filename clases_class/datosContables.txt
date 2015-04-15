@@ -1,0 +1,22 @@
+3
+Mat. de Oficina
+Transporte
+Sueldos
+4
+Primavera
+Verano
+Otoño
+Invierno
+3,56
+0,0
+12040,67
+4,53
+1,0
+12040,67
+1,32
+0,34
+12240,12
+-2,56
+1,0
+12240,12
+
