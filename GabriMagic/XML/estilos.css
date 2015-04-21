@@ -7,10 +7,11 @@ alumno{
 	margin: 0 0 5px 0;
 }
 
-nombre{
+.nombre{
 	color: red;
 	font-size: 20px;
 	background-color: pink;
+	text-align: center;
 }
 
 apellidos{
@@ -20,3 +21,9 @@ apellidos{
 
 nota{ display:none }
 repetidor{ display:none }
+
+td{
+	padding: 3px;
+}
+
+.notas{padding:0 0 0 20px}

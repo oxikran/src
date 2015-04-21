@@ -16,20 +16,29 @@
 		
 		<html>
 			<body>
-				<table border="1">
+				<table border="1	0">
 					<tr style=" background-color:#00F5FF">
 						<td >Nombre</td>
 						<td>Apellidos</td>
 						<td>Asignatura</td>
-					</tr>
+					</tr >
 
-					<xsl:for-each select="instituto/curso/alumno">
+					<!--xsl:for-each select="instituto/curso/alumno [@apellidos=fn:contains('@apellidos', 'Perez')] "-->
+					
+					<xsl:for-each select="instituto/curso/alumno [@nombre='Maria']">
 						<tr>
-							<td>
+							<td class="nombre">
 								<xsl:value-of select="nombre" />
 							</td>
 							<td>
 								<xsl:value-of select="apellidos" />
+							</td>
+							<td>
+								<ol class="notas">
+									<xsl:for-each select="notas/asignatura">
+										<li><xsl:value-of select="." />:  <xsl:value-of select="following-sibling::nota" /></li>
+									</xsl:for-each>
+								</ol>
 							</td>
 							<!-- <td> <xsl:value-of select="asignatura" />< /td> -->
 						</tr>
