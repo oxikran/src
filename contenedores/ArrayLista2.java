@@ -32,6 +32,19 @@ public class ArrayLista2<T> extends ArrayLista<T>{
 			enDato=false;
 		}
 		
+		
+		//mostrar los elementos desde la posicion desde que esta el list iterator  y luego mostar la lista al reces
+	@SuppressWarnings("unused")
+	public void listar() {
+		T aux;
+		
+		if(  ){
+			
+		}
+		
+	}
+	
+	
 	}
 	
 	

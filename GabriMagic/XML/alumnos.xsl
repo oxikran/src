@@ -17,15 +17,15 @@
 		<html>
 			<body>
 				<table border="1	0">
-					<tr style=" background-color:#00F5FF">
+					<tr style="background-color:#00F5FF">
 						<td >Nombre</td>
 						<td>Apellidos</td>
 						<td>Asignatura</td>
 					</tr >
 
-					<!--xsl:for-each select="instituto/curso/alumno [@apellidos=fn:contains('@apellidos', 'Perez')] "-->
+					<!--xsl:for-each select="instituto/curso/alumno"-->
 					
-					<xsl:for-each select="instituto/curso/alumno [@nombre='Maria']">
+					<xsl:for-each select="instituto/curso/alumno [contains(translate(upper-case(apellido])','ÈÉ','EE'), 'PEREZ')]">
 						<tr>
 							<td class="nombre">
 								<xsl:value-of select="nombre" />
@@ -36,6 +36,7 @@
 							<td>
 								<ol class="notas">
 									<xsl:for-each select="notas/asignatura">
+										<!--xsl:number count="alumno" values="single" /-->
 										<li><xsl:value-of select="." />:  <xsl:value-of select="following-sibling::nota" /></li>
 									</xsl:for-each>
 								</ol>
