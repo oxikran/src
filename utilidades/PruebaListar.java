@@ -18,7 +18,7 @@ public class PruebaListar{
 		
 		i= l.listIterator();
 		//l.add("C"); // ERROR, no se puede insertar.
-		i.next();
+		//i.next();
 		Iteradores.listar(i);
 	}
 
